@@ -1,0 +1,56 @@
+1.在我们进行统计的过程中，有以下信息可以统计
+下面有missing值的统计，可以发现值8有大量的缺失值
+0.1034 0.1080 0.0159 0.0223 0.0929 0.1852 0.1343 0.3381
+#employment—
+
+方差分析
+
+                sum_sq     df         F         PR(>F)
+C(BMI)    27973.767287   2381  2.288753  2.402697e-189
+Residual  79221.491539  15433       NaN            NaN
+
+Age_BMI 效果不显著
+                  sum_sq    df         F    PR(>F)
+C(Age_BMI)  22364.487083  3714  1.087215  0.177364
+Residual     1578.506667   285       NaN       NaN
+
+                 sum_sq     df         F         PR(>F)
+C(Ht_BMI)  28140.549384   2418  2.266504  1.100462e-186
+Residual   79054.709443  15396       NaN            NaN
+
+analysis
+                 sum_sq     df         F         PR(>F)
+C(Wt_BMI)  28141.216050   2426  2.257928  2.793189e-185
+Residual   79054.042777  15388       NaN            NaN
+
+                         sum_sq     df         F        PR(>F)
+C(Family_Hist_3)    2890.321003     87  5.646212  1.069234e-56
+Residual          104304.937822  17727       NaN           NaN
+                   sum_sq     df          F         PR(>F)
+C(Ins_Age)    5483.304601     62  15.435687  8.611447e-156
+Residual    101711.954226  17752        NaN            NaN
+
+
+#in this section , I will count the num of key_words 
+
+                    df        sum_sq   mean_sq         F        PR(>F)
+C(Family_Hist_2)  2396  16733.972318  6.984129  1.311945  5.867144e-12
+Residual          2603  13857.049882  5.323492       NaN           NaN
+                    df        sum_sq    mean_sq         F        PR(>F)
+C(Family_Hist_4)    66   1686.641592  25.555176  4.361404  2.004854e-28
+Residual          4933  28904.380608   5.859392       NaN           NaN
+              df        sum_sq   mean_sq        F        PR(>F)
+C(FH_24_1)  3011  20499.821504  6.808310  1.34126  6.347697e-13
+Residual    1988  10091.200696  5.076057      NaN           NaN
+              df        sum_sq   mean_sq        F        PR(>F)
+C(FH_24_2)  3011  20499.821504  6.808310  1.34126  6.347697e-13
+Residual    1988  10091.200696  5.076057      NaN           NaN
+              df       sum_sq   mean_sq         F        PR(>F)
+C(FH_24_3)  2987  20312.85099  6.800419  1.331214  2.028553e-12
+Residual    2012  10278.17121  5.108435       NaN           NaN
+              df        sum_sq   mean_sq         F        PR(>F)
+C(FH_24_4)  2983  20333.360063  6.816413  1.339671  6.722276e-13
+Residual    2016  10257.662137  5.088126       NaN           NaN
+              df        sum_sq   mean_sq         F        PR(>F)
+C(FH_24_5)  2983  20333.360063  6.816413  1.339671  6.722276e-13
+Residual    2016  10257.662137  5.088126       NaN           NaN
